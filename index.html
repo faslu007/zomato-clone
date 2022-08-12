@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&family=Outfit:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="icon" type="image/png" href="https://b.zmtcdn.com/images/logo/zomato_logo_2017.png"> -->
+    <link rel="icon" type="image/favicon" href="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60">
+</head>
+
+<body>
+
+    <!-- SECTION 01 -- Hero Section -->
+    <div class="containerMain">
+
+
+        <!-- Top NAVIGATIONBAR -->
+        <div class="topBar">
+            <div class="topbarPosition getApp">
+                <h5><a href="#">Get the App </a></h5>
+            </div>
+            <div class="topbarPosition invstRelation">
+                <h5><a href="#">Investores Relations</a></h5>
+            </div>
+            <div class="topbarPosition Login">
+                <h5><a href="#">Login</a></h5>
+            </div>
+            <div class="topbarPosition signUp">
+                <h5><a href="#">Sign Up</a></h5>
+            </div>
+        </div>
+
+
+        <!-- HERO CONTENT WITH LOGO & TAG-->
+
+        <div class="headerSection">
+            <div class="headerPosition zomatoHeader">
+                <img class="imageSelector"
+                    src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
+            </div>
+            <div class="headerPosition zomatoSubHeader">
+                <h4>Discover the best food & drinks in Kochi</h4>
+            </div>
+
+            <!-- INPUT SEARCH FIEDLS -->
+            <div class="headerPosition inputField">
+                <i class="bi bi-geo-alt locationIcon"></i>
+                <select class="searchbar" name="locations">
+                    <option value="Kochi">Kochi</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumabi">Mumabi</option>
+                </select>
+                <i class="bi bi-search locationIcon"></i>
+                <input class="searchbar" type="text" id="fname" name="fname" placeholder="Seach Food or Restuarents">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- SECTION 02 - OrderTypes -->
+
+    <div class="section2">
+        <div class="section2ContentPositions content01">
+            <img class="content01image01"
+                src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+                alt="">
+            <p class="content01texts text01">Order Online</p>
+            <p class="content01texts">Stay home & Order Online</p>
+        </div>
+
+        <div class="section2ContentPositions content02">
+            <img class="content01image01"
+                src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*"
+                alt="">
+            <p class="content01texts text01">Dine in a hotel</p>
+            <p class="content01texts">Reserve a table in your favorite Restuarent</p>
+        </div>
+    </div>
+
+    <!-- SECTION 03 -- FOODITEMS LIST -->
+
+    <div class="section03">
+        <h3 class="section03Header">Inspirations for your first order</h3>
+
+        <div class="foodItems">
+            <div class="footItemsList">
+                <div class="circle">
+                    <a
+                        href="https://www.zomato.com/bangalore/restaurants?place_name=Vittal+Malaya+Road%2C+Shanthala+Nagar%2C+Richmond+Town&dishv2_id=56691">
+                        <img class="circleImage"
+                            src="https://b.zmtcdn.com/data/dish_images/ccb7dc2ba2b054419f805da7f05704471634886169.png"
+                            alt="">
+                        ` </a>
+                </div>
+                <h4 class="foodItemsName">Burger</h4>
+            </div>
+
+            <div class="footItemsList">
+                <div class="circle">
+                    <img class="circleImage"
+                        src="https://b.zmtcdn.com/data/dish_images/c2f22c42f7ba90d81440a88449f4e5891634806087.png"
+                        alt="">
+                </div>
+                <h4 class="foodItemsName">Rolls</h4>
+            </div>
+
+            <div class="footItemsList">
+                <div class="circle">
+                    <img class="circleImage"
+                        src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png"
+                        alt="">
+                </div>
+                <h4 class="foodItemsName">Biriyani</h4>
+            </div>
+
+            <div class="footItemsList">
+                <div class="circle">
+                    <img class="circleImage"
+                        src="https://b.zmtcdn.com/data/dish_images/197987b7ebcd1ee08f8c25ea4e77e20f1634731334.png"
+                        alt="">
+                </div>
+                <h4 class="foodItemsName">Wings</h4>
+            </div>
+
+            <div class="footItemsList">
+                <div class="circle"> <img class="circleImage"
+                        src="https://b.zmtcdn.com/data/dish_images/d19a31d42d5913ff129cafd7cec772f81639737697.png"
+                        alt=""> </div>
+                <h4 class="foodItemsName">Biriyani</h4>
+            </div>
+        </div>
+
+
+        <!-- SECTION --- 04 FOOD LIST WITH RESTUARENT NAME -->
+        <div class="section04">
+            <div class="section04SubDiv">
+                <div class="section04ImageContainer">
+                    <a href="https://www.zomato.com/bangalore/order-food-online?delivery_subzone=3655">
+                        <img class="section04Images"
+                            src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80"
+                            alt="">
+                </div>
+                <div class="section4DivHeader">
+                    <div class="discoutDisplay">
+                        <h6>50% OFF</h6>
+                    </div>
+                    <div class="sec04foodItem">
+                        <h2>Slad Bowl</h2>
+                    </div>
+                    <div class="sec04Location">
+                        <h4>Voyager - Kakkanad</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section04SubDiv">
+                <div class="section04ImageContainer">
+                    <a href="https://www.zomato.com/bangalore/order-food-online?delivery_subzone=3655">
+                        <img class="section04Images"
+                            src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                            alt="">
+                </div>
+                <div class="section4DivHeader">
+                    <div class="discoutDisplay">
+                        <h6>50% OFF</h6>
+                    </div>
+                    <div class="sec04foodItem">
+                        <h2>Slad Bowl</h2>
+                    </div>
+                    <div class="sec04Location">
+                        <h4>Voyager - Kakkanad</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section04SubDiv">
+                <div class="section04ImageContainer">
+                    <a href="https://www.zomato.com/bangalore/order-food-online?delivery_subzone=3655">
+                        <img class="section04Images"
+                            src="https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                </div>
+                <div class="section4DivHeader">
+                    <div class="discoutDisplay">
+                        <h6>50% OFF</h6>
+                    </div>
+                    <div class="sec04foodItem">
+                        <h2>Slad Bowl</h2>
+                    </div>
+                    <div class="sec04Location">
+                        <h4>Voyager - Kakkanad</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section04SubDiv">
+                <div class="section04ImageContainer">
+                    <a href="https://www.zomato.com/bangalore/order-food-online?delivery_subzone=3655">
+                        <img class="section04Images"
+                            src="https://images.unsplash.com/photo-1488900128323-21503983a07e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                </div>
+                <div class="section4DivHeader">
+                    <div class="discoutDisplay">
+                        <h6>50% OFF</h6>
+                    </div>
+                    <div class="sec04foodItem">
+                        <h2>Slad Bowl</h2>
+                    </div>
+                    <div class="sec04Location">
+                        <h4>Voyager - Kakkanad</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section04SubDiv">
+                <div class="section04ImageContainer">
+                    <a href="https://www.zomato.com/bangalore/order-food-online?delivery_subzone=3655">
+                        <img class="section04Images"
+                            src="https://images.unsplash.com/photo-1603046891744-1f76eb10aec7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                </div>
+                <div class="section4DivHeader">
+                    <div class="discoutDisplay">
+                        <h6>50% OFF</h6>
+                    </div>
+                    <div class="sec04foodItem">
+                        <h2>Slad Bowl</h2>
+                    </div>
+                    <div class="sec04Location">
+                        <h4>Voyager - Kakkanad</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section04SubDiv">
+                <div class="section04ImageContainer">
+                    <a href="https://www.zomato.com/bangalore/order-food-online?delivery_subzone=3655">
+                        <img class="section04Images"
+                            src="https://images.unsplash.com/photo-1607974347625-36a0bcb6a260?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                            alt="">
+                </div>
+                <div class="section4DivHeader">
+                    <div class="discoutDisplay">
+                        <h6>50% OFF</h6>
+                    </div>
+                    <div class="sec04foodItem">
+                        <h2>Slad Bowl</h2>
+                    </div>
+                    <div class="sec04Location">
+                        <h4>Voyager - Kakkanad</h4>
+                    </div>
+                </div>
+            </div>
+</div>
+
+    </div>
+
+    <div class="footer">
+        <img class="footerLogo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
+    </div>
+   
+
+</body>
+
+</html>

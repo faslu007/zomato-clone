@@ -1,0 +1,325 @@
+body {
+    margin-top: 0%;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.containerMain {
+    margin-left: -0.6%;
+    width: 101%;
+    height: 500px;
+    background-size: cover;
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    position: relative;
+    justify-content: center;
+}
+
+.topBar {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    z-index: 10;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.topbarPosition {
+    position: absolute;
+}
+
+.signUp {
+    left: 1200px;
+}
+
+.Login {
+    left: 1100px;
+}
+
+.invstRelation {
+    left: 900px;
+}
+
+.getApp {
+    left: 200px;
+}
+
+.headerSection {
+    width: 100%;
+    height: 300px;
+    position: relative;
+
+}
+
+.headerPosition {
+    position: absolute;
+}
+
+.imageSelector {
+    width: 500px;
+    height: 100px;
+}
+
+.zomatoHeader {
+    left: 450px;
+    top: 70px;
+    z-index: 6;
+}
+
+.zomatoSubHeader {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-weight: normal;
+    color: aliceblue;
+    font-size: 30px;
+    left: 445px;
+    top: 175px;
+}
+
+.inputField {
+    left: 360px;
+    top: 325px;
+    padding: 10px;
+}
+
+
+.searchbar {
+    width: 300px;
+    height: 30px;
+    border-radius: 12px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    border: none;
+    transition: 0.4s;
+}
+
+
+.locationIcon {
+    color: white;
+}
+
+.searchbar:hover {
+    width: 350px;
+    height: 33px;
+    border-radius: 12px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    border: none;
+    transition: 0.4s;
+}
+
+
+.section2 {
+    width: 70%;
+    height: 310px;
+    border-radius: 12px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 300px;
+}
+
+.section2ContentPositions {
+    position: absolute;
+    width: 400px;
+    transition: 0.4s;
+
+}
+
+
+.section2ContentPositions:hover {
+    padding: 7px;
+    transition: 0.4s;
+    background-color: #F9F5EB;
+}
+
+
+.content01 {
+    border-radius: 12px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.content02 {
+    border-radius: 12px;
+    left: 525px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.content01image01 {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.content01texts {
+    margin-left: 20px;
+}
+
+.text01 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section03 {
+    margin-top: 30px;
+    height: 300px;
+    width: 100%;
+    background-color: #F9F5EB;
+    border-radius: 12px;
+    /* background-color: #9d9393; */
+}
+
+
+.foodItems {
+    display: flex;
+    /* margin: 10px; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.footItemsList {
+    margin: 20px;
+    width: 150px;
+    height: 200px;
+    /* background-color: aquamarine; */
+}
+
+
+
+
+.circle {
+    height: 150px;
+    width: 100;
+    background-color: #bbb;
+    border-radius: 50%;
+}
+
+.circleImage {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    object-fit: fill
+}
+
+.section03Header {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    margin-left: 300px;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+.foodItemsName {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-size: medium;
+    margin-left: 50px;
+}
+
+.section04{
+    margin-top: 30px;
+    height: 500px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-radius: 12px;
+    flex-direction:row;
+    flex-wrap: wrap;
+    transition: 0.4s;
+}
+
+.section04SubDiv{
+    padding: 20px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+
+
+.section04Images{
+    width: 350px; 
+    height: 370px;
+    border-radius: 12px;
+    object-fit:none; 
+    transition: 0.07s;
+}
+
+.section04Images:hover{
+    opacity: 0.9;
+    transition: 0.05s;
+}
+
+
+.section4DivHeader{
+    position: relative;
+    margin-left: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.discoutDisplay{
+    margin-top: -150px;
+    font-size: 30px;
+    border-radius: 5px;
+    font-weight:bold;
+    width: 100px;
+    background-color: rgb(84, 139, 95);
+}
+
+.sec04foodItem{
+    margin-top: -30px;
+    width: fit-content;
+    background-color: #32312e;
+    border-radius: 5PX;
+    color: rgb(255, 255, 255);
+}
+
+.sec04Location{
+    margin-top: 30px;
+    color: rgb(102, 95, 95);
+    font-style: italic;
+}
+
+.footer{
+    height: 200px;
+    width: 100%;
+    margin-top: 1000px;
+    background-color: rgb(70, 70, 67);
+}
+
+.footerLogo{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
